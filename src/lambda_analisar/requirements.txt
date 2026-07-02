@@ -1,2 +1,2 @@
-strands
 boto3
+
