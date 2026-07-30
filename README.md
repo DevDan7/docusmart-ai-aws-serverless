@@ -17,6 +17,17 @@ Este projeto não é apenas uma automação técnica, mas uma solução de arqui
 
 ---
 
+## 👥 Equipe e Meu Papel
+
+Este projeto foi desenvolvido em equipe (Grupo 8) durante o Hackathon EDN. Meu papel específico:
+
+- **Arquitetura:** desenhei o diagrama de arquitetura completo da solução (fluxo de eventos, integração entre serviços AWS).
+- **Backend & Infraestrutura:** levantei toda a infraestrutura AWS do projeto — Lambdas, integração com Amazon Bedrock via Strands Agents SDK, Amazon Textract, DynamoDB e API Gateway.
+- **Testes:** executei os testes end-to-end da API (Lambda `lambda-analisar` e `lambda-consultar`), validando o fluxo completo desde o upload do documento até a resposta estruturada em JSON.
+- O **frontend** (pasta `frontend/`, aplicação Streamlit) foi desenvolvido por outro integrante da equipe.
+
+--- 
+
 ## 📋 O que o projeto faz
 
 1. Recebe via API o nome de um documento armazenado no S3
